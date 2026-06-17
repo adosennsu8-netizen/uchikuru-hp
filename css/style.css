@@ -259,3 +259,50 @@ footer a:hover{color:var(--coral);}
   .line-content{padding:40px 24px;}
   .room-card{width:260px;}
 }
+
+/* ── SECRET BANNER ── */
+.secret-banner{
+  background:var(--navy);
+  padding:20px 40px;
+}
+.secret-inner{
+  max-width:720px;margin:0 auto;
+  display:flex;align-items:flex-start;gap:16px;
+  color:rgba(255,255,255,0.85);
+  font-size:13px;line-height:1.8;
+}
+.secret-icon{font-size:22px;flex-shrink:0;margin-top:2px;}
+.secret-inner strong{
+  display:block;color:#fff;
+  font-size:14px;font-weight:600;
+  letter-spacing:0.1em;margin-bottom:4px;
+}
+
+/* ── PRICE ── */
+.price-sec{background:var(--warm);}
+.price-note{font-size:12px;color:var(--mid);margin-bottom:28px;letter-spacing:0.05em;}
+.grid-price{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:32px;}
+.price-card{background:var(--cream);border:0.5px solid #E0D5CC;border-radius:16px;padding:32px 24px;text-align:center;}
+.price-card.featured{border:1.5px solid var(--coral);background:var(--warm);}
+.price-badge{display:inline-block;background:var(--coral-pale);color:var(--coral);font-size:10px;font-weight:600;letter-spacing:0.15em;padding:3px 12px;border-radius:20px;margin-bottom:12px;}
+.price-plan{font-size:11px;color:var(--mid);letter-spacing:0.12em;margin-bottom:10px;font-weight:500;}
+.price-yen{font-family:'Noto Serif JP','Hiragino Mincho Pro',serif;font-size:34px;font-weight:700;color:var(--dark);line-height:1;}
+.price-time{font-size:11px;color:var(--coral);margin-top:6px;letter-spacing:0.1em;font-weight:500;}
+.price-desc{font-size:12px;color:var(--mid);margin-top:14px;line-height:1.7;}
+.price-footer{font-size:11px;color:var(--light);text-align:center;margin-top:16px;letter-spacing:0.05em;}
+
+/* OPTION */
+.option-box{
+  border:0.5px solid #E0D5CC;
+  border-radius:14px;
+  padding:24px 28px;
+  background:var(--cream);
+  margin-bottom:16px;
+}
+.option-item{
+  display:flex;align-items:center;gap:16px;
+  flex-wrap:wrap;
+}
+.option-name{font-size:14px;font-weight:500;color:var(--dark);letter-spacing:0.05em;}
+.option-detail{font-size:12px;color:var(--mid);}
+.option-price{font-family:'Noto Serif JP',serif;font-size:20px;font-weight:700;color:var(--coral);margin-left:auto;}
